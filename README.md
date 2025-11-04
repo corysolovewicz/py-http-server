@@ -44,7 +44,8 @@ your-repo/
 ## Configuration
 Inside `file_server.py`, you can modify:
 ```python
-PORT, DIRECTORY = 8000, "files"
+PORT = 8000  
+DIRECTORY = "files"
 ```
 Change `PORT` for a different port or `DIRECTORY` to serve another folder.
 
